@@ -12,6 +12,6 @@ class Program19
         for (int j = 0; j < 2; j++)
             sum[i, j] = a[i, j] + b[i, j];
 
-        Console.WriteLine($"{sum[0,0]} {sum[0,1]}\\n{sum[1,0]} {sum[1,1]}");
+        Console.WriteLine($"{sum[0,0]} {sum[0,1]}\n{sum[1,0]} {sum[1,1]}");
     }
 }

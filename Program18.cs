@@ -9,7 +9,11 @@ class Program18
         int index = -1;
         for (int i = 0; i < arr.Length; i++)
         {
-            if (arr[i] == target) index = i;
+            if (arr[i] == target)
+            {
+                index = i;
+                break;
+            }
         }
         Console.WriteLine(index >= 0 ? $"Found at index {index}" : "Not found");
     }
